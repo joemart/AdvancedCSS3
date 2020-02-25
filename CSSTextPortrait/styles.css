@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900")
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+section{
+	background:#000;
+	height: 100vh;
+	overflow:hidden;
+}
+
+
+section p{
+	position: fixed;
+	top:0;
+	left:0;
+	font-size:24px;
+	letter-spacing: -1px;
+	line-height: 0.6em;
+	background:url(https://lh3.googleusercontent.com/PlXx9zlTp7UuFiwEExANZIjlXnyaacTW6ZdxodycUNT3PwyhW4yvqRhQJs1HUhu4qaIezkNs=w640-h400-e365);
+	background-size: cover;
+	-webkit-background-clip: text;
+	text-align:justify;
+	color:transparent;
+	filter:contrast(1);
+	
+}
+
+#bg{
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	top:0;
+	right:0;
+	background:url(https://lh3.googleusercontent.com/PlXx9zlTp7UuFiwEExANZIjlXnyaacTW6ZdxodycUNT3PwyhW4yvqRhQJs1HUhu4qaIezkNs=w640-h400-e365);
+	background-attachment: fixed;
+	background-size: cover;
+	filter: contrast(2);
+}
